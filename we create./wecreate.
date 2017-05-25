@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Darmowe warsztaty z programowania HTML i CSS.">
+    <title>The Awwwesomes – Darmowe warsztaty z programowania HTML & CSS</title>
+    <link rel="stylesheet" href="/styles/website.css">
+  </head>
+
+  <body>
+  	
+  	<header>
+  		<nav>
+  			<ul>
+  			<li>projects</li>
+  			<li>team</li>
+  			<li>mission</li>
+  			<li>contact</li>
+  			</ul>
+
+  			<h1>we create.</h1>
+
+  			<span>strategy is our first name</span>
+  		</nav>
+  	</header>
+  		
+  	
+  </body>
+
+
+
+
+</html>
