@@ -22,6 +22,9 @@ nav{
 	height: 24px;
 	color: #66269C;
   	margin: 0px;
+  	position: fixed;
+  	z-index: 5;
+  	font-size: 24px;
 }
 
   
@@ -53,7 +56,6 @@ span.strategy {
 	padding: 20px;
 	box-sizing: border-box;
 }
-
 .company-image img{
 	max-width: 100%;
 }
@@ -62,7 +64,6 @@ span.strategy {
 	padding: 20px;
 	box-sizing: border-box;
 }
-
 .projects-image img{
 	max-width: 100%;
 }
@@ -74,33 +75,39 @@ h3 {
 	letter-spacing: 2px;
 }
 
+.offset-margin{
+	padding-left: 20px;
+}
+
 .projects::before, .company::before, .experience-content::before{
 	background: transparent;
 	position: absolute;
 	width: 100px;
 	height: 100px;
-  	left: -50px;
+  	left: -75px;
   	top: -10px;
   	font-size: 200px;
   	text-align: center;
   	z-index: -1;
+  	font-weight: bold;
+
 }
 
 .projects::before {
 	content: "1.";
-	color: #CF64CC;
+	color: #CC66CC;
 
 }
 
 .company::before{
 	content: "2.";
-	color: #CF64CC;
+	color: #FF6699;
 
 }
 
 .experience-content::before{
 	content: "3.";
-	color: #CF64CC;
+	color: #CC0099;
   	}
 
 p{
